@@ -66,9 +66,16 @@
     font-size:small;
 }
 
-#imagem {
-    border: 5em;
-}
+
+  
+    
+    @media screen {
+        img{
+            width: 100%;
+        }
+    }
+    
+
 .barra{
     background-color: rgb(161, 205, 253);
     padding: 1em;
