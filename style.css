@@ -1,0 +1,77 @@
+* {
+     font-family: 'Roboto', sans-serif;
+    font-size:norma ;
+}
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;1,100;1,300;1,400;1,900&family=Teko:wght@300;400&display=swap');
+
+
+.cabecario {
+ background: url(//www.devmedia.com.br/view/img/grid.png), linear-gradient(to right, rgba(0, 126, 174, .85), rgba(26, 193, 187, .85));
+    
+    margin-left: 10px;
+    padding-left: 10px;
+    padding-top: 24px;
+    margin-top: 0px;
+    padding-bottom: 5px;
+    padding-right: 10px;
+    border-top-width: 0px;
+    border-top-style: solid;
+    margin-bottom: 5px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: xx-large;
+
+    box-shadow: inset 1px 1px 4px 1px rgba(0, 0, 0, 0.341);
+    color: #f7fff7;
+    text-align: center;
+    text-shadow: inset 1px 1px 4px 1px rgba(0, 0, 0, 0.341);;
+}
+ 
+
+#menu ul {
+    max-width: auto;
+    list-style: none;
+    padding: 0;
+    background-color: lightblue;
+    font-family: 'Roboto', sans-serif;
+    font-size: normal;
+    text-align: center;
+
+}
+    
+
+#menu ul li {
+    display: inline;
+    -ms-flex-align: center;
+}
+
+#menu ul li a {
+    color: #000000;
+    padding: 10px;
+    display: inline-block;
+    text-decoration: none;
+    transition: background .4s;
+}
+
+#menu ul li a:hover {
+    background-color: rgb(24, 139, 233);
+}
+
+#menu-h ul li:last-child a {
+    float: right;
+    background-color: rgb(24, 139, 233);
+}
+
+#article {
+     font-family: 'Roboto', sans-serif;
+    font-size:small;
+}
+
+#imagem {
+    border: 5em;
+}
+.barra{
+    background-color: rgb(161, 205, 253);
+    padding: 1em;
+
+
+}
